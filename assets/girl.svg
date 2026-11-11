@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 720" role="img" aria-labelledby="girlTitle girlDesc">
+  <title id="girlTitle">Девочка из сказки</title>
+  <desc id="girlDesc">Девочка в berry-пальто с длинными волнистыми волосами держит шоколадку.</desc>
+  <defs>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d75672"/>
+      <stop offset=".55" stop-color="#b13a5a"/>
+      <stop offset="1" stop-color="#77223f"/>
+    </linearGradient>
+    <linearGradient id="coatDark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#972c4d"/>
+      <stop offset="1" stop-color="#6e1c38"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8c483f"/>
+      <stop offset=".5" stop-color="#5c2b32"/>
+      <stop offset="1" stop-color="#3c1c2a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd8b1"/>
+      <stop offset="1" stop-color="#eab189"/>
+    </linearGradient>
+    <linearGradient id="choco" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffdf8d"/>
+      <stop offset=".55" stop-color="#d89d48"/>
+      <stop offset="1" stop-color="#9b5c2d"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="205" cy="682" rx="105" ry="17" fill="#25142c" opacity=".3"/>
+
+  <!-- far leg -->
+  <path d="M225 480v139" stroke="#f1c3a3" stroke-width="26" stroke-linecap="round"/>
+  <path d="M230 596h-22c-6 0-10 5-9 11l5 31c1 7 8 12 15 12h27c8 0 12-8 9-15l-13-33c-2-4-5-6-9-6z" fill="#3c2432"/>
+  <path d="M198 622c22-3 43-2 57 4l3 11c-23 4-46 2-65-3z" fill="#261821"/>
+
+  <!-- near leg -->
+  <path d="M166 481v129" stroke="#f6c7a5" stroke-width="31" stroke-linecap="round"/>
+  <path d="M164 588h-27c-7 0-12 6-10 13l6 33c1 7 8 12 15 12h34c9 0 14-8 11-16l-15-36c-2-4-6-6-11-6z" fill="#452a38"/>
+  <path d="M130 619c25-3 50-1 67 5l3 12c-28 4-55 2-76-4z" fill="#2a1b24"/>
+  <path d="M145 606h33" stroke="#d8a55c" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- coat body -->
+  <path d="M157 238C126 252 116 292 122 350C127 400 126 449 132 509C135 537 155 549 195 549C238 549 264 538 269 510C279 451 274 396 279 347C285 288 273 251 244 237C219 225 181 226 157 238Z" fill="url(#coat)"/>
+  <path d="M244 237C273 251 285 288 279 347C274 396 279 451 269 510C266 526 257 537 243 544C251 523 255 499 258 471C265 413 257 354 264 313C269 280 260 253 244 237Z" fill="url(#coatDark)" opacity=".8"/>
+  <path d="M195 260C186 336 181 427 184 520" fill="none" stroke="#842341" stroke-width="5" opacity=".55"/>
+  <path d="M198 267C206 273 216 273 223 267" fill="none" stroke="#ffd18a" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#f7ca79">
+    <circle cx="202" cy="309" r="5"/>
+    <circle cx="197" cy="358" r="5"/>
+    <circle cx="191" cy="408" r="5"/>
+    <circle cx="187" cy="458" r="5"/>
+  </g>
+  <path d="M133 500C160 518 231 523 267 504L270 535C234 554 164 550 132 535Z" fill="#7f2440" opacity=".55"/>
+
+  <!-- left arm -->
+  <path d="M149 271C131 310 130 354 146 389C151 401 169 402 176 389C185 371 176 329 184 298Z" fill="#a63252"/>
+  <path d="M153 382c8 9 16 10 24 0" fill="none" stroke="#f2c09d" stroke-width="16" stroke-linecap="round"/>
+  <path d="M159 388l3 8 8 3-8 4-3 8-4-8-8-4 8-3z" fill="#f8d17c"/>
+
+  <!-- right arm holding chocolate -->
+  <path d="M258 269C278 292 287 320 282 348C279 365 261 376 250 364C238 351 243 323 234 299Z" fill="#bf3f5e"/>
+  <path d="M255 344c8-2 14 1 18 8" fill="none" stroke="#f5c6a4" stroke-width="17" stroke-linecap="round"/>
+  <g transform="translate(267 314) rotate(9)">
+    <rect x="0" y="0" width="45" height="88" rx="5" fill="url(#choco)"/>
+    <rect x="4" y="6" width="37" height="76" rx="3" fill="#7c2e49"/>
+    <path d="M8 16h29M8 23h29M8 70h29" stroke="#f6cf82" stroke-width="2"/>
+    <path d="M22 33l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#f6cf82"/>
+    <path d="M12 78h21" stroke="#d7a64f" stroke-width="2"/>
+    <path d="M0 7h45M0 81h45" stroke="#f1c56e" stroke-width="6"/>
+  </g>
+  <path d="M276 359c10-2 17 2 20 9" fill="none" stroke="#f6c8a6" stroke-width="15" stroke-linecap="round"/>
+
+  <!-- neck / collar -->
+  <path d="M174 223h54v36c-16 12-38 12-54 0z" fill="url(#skin)"/>
+  <path d="M148 241C154 215 175 201 201 201C225 201 247 214 255 239C236 226 215 222 199 225C181 228 164 233 148 241Z" fill="#ffe0b9"/>
+  <path d="M149 239C166 251 182 260 201 261C221 261 241 251 256 238C249 263 231 277 204 277C178 277 158 264 149 239Z" fill="#f7d2a9"/>
+
+  <!-- head -->
+  <path d="M169 159C169 117 187 93 218 93C250 93 269 117 269 158C269 193 249 216 218 216C188 216 169 194 169 159Z" fill="url(#skin)"/>
+  <path d="M221 95C252 96 269 119 269 159C269 180 262 197 249 207C258 193 261 177 259 159C257 131 240 113 214 107Z" fill="#e6a980" opacity=".42"/>
+
+  <!-- face 3/4 to the right -->
+  <path d="M260 155c8-1 12 4 10 11-2 7-8 11-14 9" fill="url(#skin)"/>
+  <path d="M254 177c5 3 9 3 13 0" fill="none" stroke="#9d4a49" stroke-width="3" stroke-linecap="round"/>
+  <path d="M251 148c5-2 9-1 12 2" fill="none" stroke="#4a2632" stroke-width="3" stroke-linecap="round"/>
+  <path d="M230 151c4-2 9-1 12 2" fill="none" stroke="#4a2632" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="244" cy="166" r="5" fill="#e99386" opacity=".45"/>
+
+  <!-- hair -->
+  <path d="M161 173C143 154 146 118 168 97C190 76 238 70 263 94C282 113 282 145 269 170C267 149 259 134 244 123C224 109 197 114 181 132C170 145 166 159 161 173Z" fill="url(#hair)"/>
+  <path d="M164 159C153 189 156 227 165 253C171 272 161 296 167 323C173 348 192 360 201 382C206 395 199 409 189 417C178 426 170 441 178 458C188 478 213 471 220 453C229 428 213 412 218 390C224 363 212 343 205 320C198 296 210 271 205 246C200 220 206 190 196 170C188 151 173 145 164 159Z" fill="url(#hair)"/>
+  <path d="M253 113C275 122 282 150 271 173C282 188 281 212 272 230C267 241 251 246 244 235C238 226 244 211 247 198C253 175 248 154 235 139C230 133 240 109 253 113Z" fill="url(#hair)"/>
+  <path d="M176 118C193 99 224 94 245 105" fill="none" stroke="#b06b57" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  <path d="M173 197C166 228 176 252 172 280" fill="none" stroke="#a95b4c" stroke-width="4" stroke-linecap="round" opacity=".38"/>
+  <path d="M259 131C269 145 271 161 266 178" fill="none" stroke="#a95b4c" stroke-width="4" stroke-linecap="round" opacity=".35"/>
+  <path d="M194 92l5 13 13 5-13 5-5 13-5-13-13-5 13-5z" fill="#f8d17c"/>
+  <path d="M265 198c0 18-9 29-22 33" fill="none" stroke="#5b2932" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- coat hem folds -->
+  <path d="M147 512c22 11 42 14 60 13M258 509c-15 10-31 15-50 17" fill="none" stroke="#8f2746" stroke-width="4" stroke-linecap="round" opacity=".45"/>
+
+  <!-- sparkles -->
+  <g fill="#ffe49a">
+    <path d="M96 187l4 11 11 4-11 4-4 11-4-11-11-4 11-4z" opacity=".9"/>
+    <path d="M311 235l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" opacity=".7"/>
+    <circle cx="318" cy="413" r="4" opacity=".6"/>
+  </g>
+</svg>

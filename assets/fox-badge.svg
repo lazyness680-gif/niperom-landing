@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Лиса">
+  <defs>
+    <linearGradient id="badgeBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe9b5"/>
+      <stop offset="1" stop-color="#f2bf69"/>
+    </linearGradient>
+    <linearGradient id="badgeFur" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffad6c"/>
+      <stop offset="1" stop-color="#cf5144"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="78" fill="url(#badgeBg)"/>
+  <circle cx="80" cy="80" r="70" fill="#2b1835"/>
+  <path d="M53 60L43 25L74 43Z" fill="#f17c4f"/>
+  <path d="M47 37L44 28L58 39Z" fill="#2b1835"/>
+  <path d="M101 43L130 24L120 62Z" fill="#f17c4f"/>
+  <path d="M123 33L128 27L127 43Z" fill="#2b1835"/>
+  <path d="M54 68C56 49 68 38 86 38C107 38 122 51 122 72C122 93 106 107 82 107C60 107 49 92 54 68Z" fill="url(#badgeFur)"/>
+  <path d="M82 71C88 65 102 66 110 73C118 80 117 88 110 91C101 95 89 92 84 85C81 81 79 76 82 71Z" fill="#ffe0b7"/>
+  <path d="M109 80C118 77 126 80 127 86C128 91 120 95 113 92" fill="#ffe0b7"/>
+  <ellipse cx="125" cy="85" rx="5" ry="4" fill="#382032"/>
+  <path d="M65 73C69 68 76 68 80 71" fill="none" stroke="#512533" stroke-width="4" stroke-linecap="round"/>
+  <path d="M94 71C98 67 104 68 107 72" fill="none" stroke="#512533" stroke-width="4" stroke-linecap="round"/>
+  <path d="M88 90C93 93 99 92 102 89" fill="none" stroke="#6b2c35" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="65" cy="84" r="5" fill="#f18a75" opacity=".55"/>
+  <path d="M54 96C65 104 83 107 99 102" fill="none" stroke="#ffd18d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M88 99l3 7 7 1-6 5 2 7-7-4-6 4 2-7-6-5 7-1z" fill="#ffe9a8"/>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 520" role="img" aria-labelledby="foxTitle foxDesc">
+  <title id="foxTitle">Лиса — проводник по сказке</title>
+  <desc id="foxDesc">Рыжая лиса с золотым шарфом сидит и улыбается.</desc>
+  <defs>
+    <linearGradient id="fur" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb06f"/>
+      <stop offset=".45" stop-color="#f07e51"/>
+      <stop offset="1" stop-color="#c94f42"/>
+    </linearGradient>
+    <linearGradient id="furLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd5a4"/>
+      <stop offset="1" stop-color="#f4ab7b"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffbd7b"/>
+      <stop offset=".58" stop-color="#ef7b50"/>
+      <stop offset="1" stop-color="#b74340"/>
+    </linearGradient>
+    <linearGradient id="scarf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffdf8d"/>
+      <stop offset="1" stop-color="#d99b43"/>
+    </linearGradient>
+  </defs>
+
+  <!-- soft shadow -->
+  <ellipse cx="267" cy="496" rx="133" ry="17" fill="#2b1632" opacity=".28"/>
+
+  <!-- tail -->
+  <path d="M241 426C181 479 84 459 56 392C28 325 69 251 122 252C163 253 182 286 170 317C158 347 125 353 107 332C86 307 108 279 134 289C116 260 82 276 74 319C63 379 126 424 186 407C212 399 231 380 243 354Z" fill="url(#tail)"/>
+  <path d="M57 392C37 344 57 294 87 268C94 263 104 258 113 256C87 276 73 307 74 337C75 363 90 381 108 395C89 402 70 401 57 392Z" fill="#ffe4bd"/>
+  <path d="M153 422C119 437 88 437 64 424" fill="none" stroke="#b8423c" stroke-width="5" stroke-linecap="round" opacity=".35"/>
+
+  <!-- body -->
+  <path d="M183 444C175 363 216 312 276 302C339 291 381 345 376 415C372 472 333 501 278 501C225 501 190 483 183 444Z" fill="url(#fur)"/>
+  <path d="M278 340C309 333 339 344 355 368C344 338 318 315 286 319C255 323 235 347 228 376C241 357 257 347 278 340Z" fill="#ffd09b" opacity=".65"/>
+
+  <!-- chest -->
+  <path d="M283 303C265 326 263 365 275 399C286 430 313 447 344 440C368 434 379 407 374 379C363 322 324 298 283 303Z" fill="url(#furLight)"/>
+  <path d="M312 321C298 348 298 381 315 406C326 422 344 431 359 426C340 419 328 405 323 386C317 363 319 342 312 321Z" fill="#fff0d6" opacity=".7"/>
+
+  <!-- scarf -->
+  <path d="M234 315C255 342 315 353 357 328C365 324 373 331 369 340C356 375 312 391 273 377C252 369 238 352 230 332C227 321 228 311 234 315Z" fill="url(#scarf)"/>
+  <path d="M345 349C354 372 358 395 354 417L329 413C335 391 334 368 327 348Z" fill="#e8ad54"/>
+  <path d="M339 402l13-5 6 24-13 3z" fill="#f7cc78"/>
+  <path d="M294 342l4 10 11 1-9 7 3 11-9-6-10 6 4-11-9-7 11-1z" fill="#fff3c8"/>
+
+  <!-- head -->
+  <path d="M253 245C254 199 285 168 329 168C373 168 402 200 398 245C394 286 363 309 324 306C282 303 252 284 253 245Z" fill="url(#fur)"/>
+
+  <!-- ears -->
+  <path d="M286 184L271 117L322 153Z" fill="#e96f4b"/>
+  <path d="M276 137L272 121L296 140Z" fill="#35202f"/>
+  <path d="M338 154L367 101L389 166Z" fill="#e96f4b"/>
+  <path d="M361 119L369 106L376 135Z" fill="#35202f"/>
+  <path d="M292 181L293 148L316 174Z" fill="#f9b393" opacity=".6"/>
+  <path d="M354 172L371 144L379 175Z" fill="#f9b393" opacity=".6"/>
+
+  <!-- face -->
+  <path d="M333 230C349 224 374 228 390 243C403 255 409 268 401 276C391 287 365 290 346 279C334 272 325 260 328 248C329 241 330 235 333 230Z" fill="url(#furLight)"/>
+  <path d="M393 247C407 243 419 248 420 257C421 265 410 271 399 268C392 266 388 261 389 255C390 252 391 249 393 247Z" fill="#3b2032"/>
+  <path d="M402 259C396 260 392 257 390 254C394 257 398 258 402 259Z" fill="#6a3c4d" opacity=".6"/>
+  <path d="M299 235C304 225 314 221 323 225" fill="none" stroke="#542535" stroke-width="6" stroke-linecap="round"/>
+  <path d="M355 232C361 224 370 223 376 228" fill="none" stroke="#542535" stroke-width="5" stroke-linecap="round"/>
+  <path d="M261 250C269 238 281 231 291 231" fill="none" stroke="#ffe3b9" stroke-width="5" stroke-linecap="round" opacity=".65"/>
+  <path d="M318 266C328 273 340 273 349 267" fill="none" stroke="#692c37" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="288" cy="256" r="9" fill="#f28e7b" opacity=".5"/>
+  <path d="M284 279C291 285 300 287 308 284" fill="none" stroke="#ffd8ac" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+
+  <!-- front legs -->
+  <path d="M300 423C301 451 297 477 307 497H336C326 473 332 447 332 419Z" fill="#d65c47"/>
+  <path d="M339 418C345 444 350 473 358 494H385C376 470 372 443 370 414Z" fill="#c24f42"/>
+  <path d="M307 486h28M359 484h25" stroke="#4a2432" stroke-width="6" stroke-linecap="round"/>
+  <path d="M201 458C205 476 222 491 248 496" fill="none" stroke="#bd4b41" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+
+  <!-- sparkles -->
+  <g fill="#ffe49a">
+    <path d="M124 225l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+    <path d="M394 76l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" opacity=".8"/>
+    <path d="M205 147l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" opacity=".7"/>
+    <circle cx="159" cy="294" r="4" opacity=".7"/>
+  </g>
+</svg>

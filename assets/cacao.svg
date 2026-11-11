@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 680" role="img" aria-labelledby="cacaoTitle cacaoDesc">
+  <title id="cacaoTitle">Какао-плод</title>
+  <desc id="cacaoDesc">Иллюстрация какао-плода с листьями и золотыми декоративными элементами.</desc>
+  <defs>
+    <linearGradient id="pod" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e79a63"/>
+      <stop offset=".5" stop-color="#b95b4e"/>
+      <stop offset="1" stop-color="#712d43"/>
+    </linearGradient>
+    <linearGradient id="podLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd78d"/>
+      <stop offset="1" stop-color="#dc8c5f"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4c8874"/>
+      <stop offset="1" stop-color="#214d4e"/>
+    </linearGradient>
+    <linearGradient id="leafLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#75b396"/>
+      <stop offset="1" stop-color="#2e675d"/>
+    </linearGradient>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe8a8"/>
+      <stop offset="1" stop-color="#c88f3e"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke="#f4cd7f" opacity=".3">
+    <circle cx="316" cy="354" r="267" stroke-width="1.5" stroke-dasharray="3 12"/>
+    <circle cx="316" cy="354" r="218" stroke-width="1.2"/>
+    <path d="M49 354h31M540 354h31M316 87v31M316 594v31"/>
+  </g>
+
+  <!-- stem -->
+  <path d="M314 64C310 112 316 152 326 186" fill="none" stroke="#7b443c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M314 65c-20-11-36-9-49 5" fill="none" stroke="#8f5745" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- leaves -->
+  <path d="M314 155C261 137 200 146 167 181C204 225 268 228 315 187Z" fill="url(#leaf)"/>
+  <path d="M314 189C266 225 251 281 271 333C314 311 337 256 315 189Z" fill="url(#leaf)"/>
+  <path d="M318 165C362 127 422 116 471 132C459 184 407 216 343 200Z" fill="url(#leafLight)"/>
+  <path d="M316 211C355 226 391 252 411 290C370 304 326 283 307 241Z" fill="url(#leaf)"/>
+  <g fill="none" stroke="#b9d9b7" stroke-width="2" opacity=".34">
+    <path d="M300 159C262 158 222 169 190 184"/>
+    <path d="M304 176C287 181 271 188 257 197"/>
+    <path d="M305 203C282 230 273 262 278 296"/>
+    <path d="M322 151C356 139 392 132 429 133"/>
+    <path d="M326 173C359 180 388 185 413 194"/>
+    <path d="M324 225C347 236 371 252 389 270"/>
+  </g>
+
+  <!-- pod -->
+  <path d="M317 197C400 199 464 271 460 374C455 487 388 568 315 568C242 568 177 490 170 379C164 274 231 195 317 197Z" fill="url(#pod)"/>
+  <path d="M317 197C371 199 416 232 440 282C414 249 380 227 338 218C299 210 259 216 225 236C256 211 286 198 317 197Z" fill="url(#podLight)" opacity=".65"/>
+  <path d="M317 568C271 540 237 479 226 402C216 332 234 263 274 218" fill="none" stroke="#5e2840" stroke-width="7" opacity=".3"/>
+  <path d="M360 218C414 250 443 314 439 391C435 480 389 542 340 563" fill="none" stroke="#ffcb8b" stroke-width="6" opacity=".28"/>
+  <g fill="none" stroke="#f5c47d" opacity=".5">
+    <path d="M275 221C247 267 235 321 240 383C245 453 271 513 312 547" stroke-width="3"/>
+    <path d="M304 205C270 251 254 310 258 376C262 451 290 514 333 549" stroke-width="2"/>
+    <path d="M347 205C375 244 390 297 388 360C386 430 361 500 322 546" stroke-width="2.4"/>
+    <path d="M387 228C416 276 427 337 421 399C415 466 385 523 345 554" stroke-width="2"/>
+  </g>
+  <g fill="#f5c47d" opacity=".65">
+    <circle cx="270" cy="298" r="3"/>
+    <circle cx="294" cy="384" r="2.5"/>
+    <circle cx="335" cy="467" r="3"/>
+    <circle cx="378" cy="351" r="2.5"/>
+    <circle cx="406" cy="418" r="2"/>
+  </g>
+  <path d="M317 197C333 218 326 245 311 257C295 244 295 219 317 197Z" fill="#4f2940" opacity=".55"/>
+
+  <!-- beans / cocoa nibs -->
+  <g>
+    <ellipse cx="103" cy="470" rx="42" ry="28" transform="rotate(-24 103 470)" fill="#7c3948"/>
+    <path d="M74 452c18 0 43 7 58 24" fill="none" stroke="#e5ab72" stroke-width="3" opacity=".6"/>
+    <ellipse cx="527" cy="477" rx="39" ry="26" transform="rotate(18 527 477)" fill="#8a4050"/>
+    <path d="M501 462c17 0 37 6 52 22" fill="none" stroke="#e5ab72" stroke-width="3" opacity=".6"/>
+    <ellipse cx="169" cy="589" rx="34" ry="23" transform="rotate(14 169 589)" fill="#743645"/>
+    <ellipse cx="453" cy="601" rx="31" ry="21" transform="rotate(-18 453 601)" fill="#7a3948"/>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#ffe6a4">
+    <path d="M109 200l6 16 16 6-16 6-6 16-6-16-16-6 16-6z"/>
+    <path d="M508 244l4 12 12 4-12 4-4 12-4-12-12-4 12-4z" opacity=".8"/>
+    <path d="M139 349l3 9 9 3-9 3-3 9-3-9-9-3 9-3z" opacity=".6"/>
+    <circle cx="506" cy="575" r="4" opacity=".7"/>
+    <circle cx="101" cy="329" r="3" opacity=".5"/>
+  </g>
+</svg>

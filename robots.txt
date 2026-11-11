@@ -1,0 +1,6 @@
+# Домен сайта: https://www.niperom.ru/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.niperom.ru/sitemap.xml
